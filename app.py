@@ -13,6 +13,8 @@ from Services.ShowReturningCustomers import ShowReturningCustomers
 from Services.TableByWeeks import TableByWeeks
 from Utils.paginate import paginate_data
 
+app = Flask(__name__)
+
 table_data = None
 
 @app.route('/')
