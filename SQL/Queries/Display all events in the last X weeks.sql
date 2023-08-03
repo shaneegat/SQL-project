@@ -1,0 +1,1 @@
+SELECT * FROM team30_events WHERE event_date <= DATE(NOW()) AND event_date > DATE_SUB(NOW(), INTERVAL {weeks} WEEK);

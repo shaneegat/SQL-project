@@ -1,0 +1,17 @@
+INSERT INTO team30_events (event_date, event_type, num_guests, price, waiters_assigned, chefs_assigned) VALUES
+('2022-08-15', 'Wedding', 100, 5000.00, 10, 5),
+('2022-08-20', 'Birthday Party', 50, 2500.00, 5, 3),
+('2022-08-25', 'Corporate Event', 200, 8000.00, 15, 8),
+('2022-08-30', 'Anniversary Celebration', 80, 4000.00, 8, 4),
+('2022-09-05', 'Graduation Party', 75, 3000.00, 7, 4),
+('2022-09-10', 'Holiday Gathering', 120, 6000.00, 12, 6),
+('2022-09-15', 'Conference', 300, 10000.00, 20, 12),
+('2022-09-20', 'Family Reunion', 60, 3500.00, 6, 3),
+('2022-09-25', 'Charity Gala', 150, 7000.00, 10, 8),
+('2022-09-30', 'Baby Shower', 40, 2000.00, 4, 2),
+('2022-10-05', 'Engagement Party', 50, 2500.00, 5, 3),
+('2022-10-10', 'Retirement Celebration', 70, 3500.00, 7, 4),
+('2022-10-15', 'Music Concert', 500, 15000.00, 30, 20),
+('2022-10-20', 'Dinner Gala', 200, 8000.00, 15, 10),
+('2022-10-25', 'Art Exhibition', 100, 5000.00, 10, 6),
+('2023-10-25', 'Art Exhibition', 100, 5000.00, 10, 6);

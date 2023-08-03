@@ -1,0 +1,16 @@
+INSERT INTO team30_customers (name, phone, address) VALUES
+('John Doe', '555-1234', '123 Main Street'),
+('Jane Smith', '555-5678', '456 Elm Avenue'),
+('Michael Johnson', '555-7890', '789 Oak Road'),
+('Emily Davis', '555-2345', '321 Pine Lane'),
+('Robert Wilson', '555-6789', '987 Cedar Court'),
+('Sarah Lee', '555-4321', '654 Birch Drive'),
+('William Brown', '555-0987', '890 Maple Avenue'),
+('Jessica Miller', '555-8765', '567 Walnut Street'),
+('David Anderson', '555-3456', '432 Cherry Lane'),
+('Elizabeth Taylor', '555-6780', '109 Orange Boulevard'),
+('Daniel Martin', '555-5670', '876 Grape Road'),
+('Jennifer Martinez', '555-4560', '543 Lemon Drive'),
+('Christopher Robinson', '555-9876', '876 Peach Court'),
+('Mary Wilson', '555-2340', '345 Berry Lane'),
+('Matthew White', '555-8907', '890 Plum Avenue');
