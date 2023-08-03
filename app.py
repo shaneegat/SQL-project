@@ -19,7 +19,7 @@ table_data = None
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('Templates/index.html')
 
 @app.route('/create_event')
 def create_event_press():
