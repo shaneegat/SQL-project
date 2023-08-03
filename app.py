@@ -12,8 +12,7 @@ from Services.ShowIncomeXMonthsAgo import ShowIncomeXMonthsAgo
 from Services.ShowReturningCustomers import ShowReturningCustomers
 from Services.TableByWeeks import TableByWeeks
 from Utils.paginate import paginate_data
-
-app = Flask(__name__)
+from app.home import home_blueprint
 
 table_data = None
 
@@ -179,4 +178,5 @@ def sales_person_income_press():
     return render_template('index.html', salesPersonIncome=message)
 
 if __name__ == '__main__':
-    app.run()
+    app.register_blueprint(home_blueprint, url_prefix='/home')
+    app = Flask(__name__)
